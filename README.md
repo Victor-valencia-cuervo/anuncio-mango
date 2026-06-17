@@ -1,10 +1,7 @@
-# RUSH Mango Tropical — Landing Page
+#⚡ RUSH Mango Tropical — Landing Page
 
 Landing page moderna y premium para una bebida energética sabor mango, construida con **React + Vite** y CSS Modules puro (sin frameworks de UI).
 
-# ⚡ Energy Mango Landing
-
-Una landing page moderna y atractiva desarrollada con **React + Vite** para promocionar una bebida energética de sabor tropical. Diseñada para captar la atención desde el primer segundo mediante animaciones fluidas, efectos visuales modernos y una experiencia de usuario envolvente.
 
 ---
 
