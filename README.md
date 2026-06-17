@@ -27,3 +27,4 @@ https://victor-valencia-cuervo.github.io/anuncio-mango/
 ## 📸 Vista Previa
 
 <img width="1365" height="628" alt="image" src="https://github.com/user-attachments/assets/07ee6964-f1f6-4fda-9454-09c0694b2677" />
+<img width="1364" height="614" alt="image" src="https://github.com/user-attachments/assets/d659e2c4-2fa6-4580-8613-18aa4101a3bd" />
