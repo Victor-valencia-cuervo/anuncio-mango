@@ -2,46 +2,27 @@
 
 Landing page moderna y premium para una bebida energética sabor mango, construida con **React + Vite** y CSS Modules puro (sin frameworks de UI).
 
-## Cómo ejecutar el proyecto
+# ⚡ Energy Mango Landing
 
-```bash
-npm install
-npm run dev
-```
+Una landing page moderna y atractiva desarrollada con **React + Vite** para promocionar una bebida energética de sabor tropical. Diseñada para captar la atención desde el primer segundo mediante animaciones fluidas, efectos visuales modernos y una experiencia de usuario envolvente.
 
-Abre la URL que aparece en la terminal (por defecto `http://localhost:5173`).
+---
 
-Para generar la build de producción:
+## ✨ Características
 
-```bash
-npm run build
-npm run preview
-```
+- 🎨 Diseño moderno y totalmente responsive.
+- ⚡ Animaciones suaves y efectos visuales dinámicos.
+- 🥭 Sección principal enfocada en el producto.
+- 🖼️ Galería interactiva con imágenes destacadas.
+- 💎 Tarjetas con efecto Glassmorphism.
+- 📈 Estadísticas animadas.
+- ⭐ Sección de testimonios.
+- 📱 Adaptado para dispositivos móviles y escritorio.
+- 💬 Botón de WhatsApp preparado para futura integración.
+- 🚀 Construido con React y Vite para máximo rendimiento.
 
-## Estructura
+---
 
-```
-src/
-  components/
-    ParticlesBackground/   Fondo animado de partículas (canvas)
-    Navbar/                 Barra de navegación fija con menú móvil
-    Logo/                   Marca "RUSH" (SVG)
-    CanIllustration/        Ilustración original de la lata (SVG reutilizable)
-    Hero/                   Sección principal
-    Gallery/                Galería de producto con efecto glassmorphism
-    Benefits/               4 tarjetas de beneficios
-    Stats/                  Contadores animados
-    Testimonials/           Tarjetas de testimonios
-    CTASection/             Llamado a la acción final
-    Footer/                 Pie de página
-  hooks/
-    useScrollReveal.js       Animación de entrada al hacer scroll
-    useCountUp.js             Contador animado
-```
+## 📸 Vista Previa
 
-## Notas
-
-- Todos los botones de **"Comprar Ahora"** y **"Contactar por WhatsApp"** son visuales / de navegación; no procesan pagos ni abren un chat real todavía. Reemplaza el `href="https://wa.me/"` por tu número real (`https://wa.me/57XXXXXXXXXX`) y conecta "Comprar Ahora" a tu checkout cuando estén listos.
-- La ilustración de la lata es una pieza de diseño original (SVG), pensada para que puedas reemplazarla fácilmente por una foto real del producto si la tienes.
-- Las imágenes de perfil de los testimonios usan el servicio gratuito `pravatar.cc` como placeholder; cámbialas por fotos reales de tus clientes cuando las tengas.
-- El diseño respeta `prefers-reduced-motion` para usuarios sensibles al movimiento.
+<img width="1365" height="628" alt="image" src="https://github.com/user-attachments/assets/07ee6964-f1f6-4fda-9454-09c0694b2677" />
