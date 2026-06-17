@@ -1,0 +1,39 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mark {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
+.md {}
+.sm .mark { width: 24px; height: 24px; }
+.lg .mark { width: 40px; height: 40px; }
+
+.text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.word {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: 0.02em;
+  color: var(--cream);
+}
+
+.sm .word { font-size: 1.2rem; }
+.lg .word { font-size: 2rem; }
+
+.tagline {
+  font-family: var(--font-accent);
+  font-size: 0.85rem;
+  color: var(--gold);
+  margin-top: 2px;
+}

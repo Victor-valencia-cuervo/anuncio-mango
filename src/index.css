@@ -1,0 +1,131 @@
+/* ===== Reset & base ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+/* ===== Design tokens ===== */
+:root {
+  /* Color palette */
+  --black: #07060a;
+  --charcoal: #14121a;
+  --charcoal-light: #1c1923;
+  --orange: #ff7a1a;
+  --mango: #ffb627;
+  --gold: #ffd166;
+  --flame: #ff3d2e;
+  --cream: #fff6e9;
+  --muted: #c9beb2;
+
+  --glass-bg: rgba(255, 255, 255, 0.045);
+  --glass-bg-strong: rgba(255, 255, 255, 0.07);
+  --glass-border: rgba(255, 255, 255, 0.1);
+
+  --radius-lg: 28px;
+  --radius-md: 18px;
+  --radius-sm: 12px;
+
+  --ease: cubic-bezier(0.16, 0.84, 0.44, 1);
+
+  --font-display: 'Big Shoulders Display', 'Arial Narrow', sans-serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-accent: 'Caveat', cursive;
+
+  --container: 1240px;
+}
+
+body {
+  background: var(--black);
+  color: var(--cream);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.site {
+  position: relative;
+  z-index: 1;
+}
+
+/* ===== Shared section utilities ===== */
+.eyebrow {
+  font-family: var(--font-accent);
+  font-size: clamp(1.15rem, 2vw, 1.4rem);
+  color: var(--gold);
+  margin: 0 0 6px;
+}
+
+section {
+  position: relative;
+  padding: clamp(64px, 10vh, 110px) clamp(20px, 6vw, 80px);
+}
+
+/* ===== Focus visibility (accessibility) ===== */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* ===== Selection ===== */
+::selection {
+  background: var(--orange);
+  color: #1a0f02;
+}
+
+/* ===== Scrollbar (webkit) ===== */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--orange), var(--gold));
+  border-radius: 8px;
+}
+
+/* ===== Reduced motion ===== */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
